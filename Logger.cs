@@ -27,7 +27,7 @@ namespace MedScheduler
                 }
                 catch
                 {
-                    // As a last resort, avoid crashing the app because logging failed.
+                    //As a last resort, avoid crashing the app because logging failed.
                     Console.Error.WriteLine("LOGGING FAILURE: " + line);
                 }
             }
