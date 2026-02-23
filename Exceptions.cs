@@ -11,6 +11,6 @@ namespace MedScheduler
     // Create a Business-rule exception for outside hours, short duration, etc.
     public class InvalidAppointmentTimeException : Exception
     {
-        public InvalidAppointmentTimeException(string message) : base(message) { }
+        public i(string message) : base(message) { }
     }
 }
