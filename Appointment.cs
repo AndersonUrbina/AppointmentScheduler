@@ -19,7 +19,7 @@ namespace MedScheduler
 
         public Appointment(string id, string patientName, string providerName, DateTime start, DateTime end, string room)
         {
-            //Validate the parameters
+            //Validate the inputs
             if (string.IsNullOrEmpty(id))
                 throw new ArgumentException("Id cannot be empty.");
             if (string.IsNullOrEmpty(patientName))
