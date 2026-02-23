@@ -60,6 +60,7 @@ namespace MedScheduler
             //Exception (the catch all for anything else)
             try
             {
+                //VARIABLES FOR APPOINTMENT INFO
                 string id = Prompt("Enter appointment ID: ");
                 string provider = Prompt("Enter provider name: ");
                 string patient = Prompt("Enter patient name: ");
@@ -89,7 +90,6 @@ namespace MedScheduler
                 Logger.Error("Unexpected error adding appointment: " + ex);
                 Console.WriteLine("Unexpected error. See scheduler.log for details.");
             }
-            //REVISE
 
         }
 
